@@ -10,6 +10,9 @@ import { router }      from './router';
 import { IState }      from './state';
 import App             from './app/App/App.vue';
 import { HttpService } from './shared/services/HttpService';
+import Vuetify         from 'vuetify';
+
+Vue.use(Vuetify);
 
 Vue.use(VeeValidate, { inject: false });
 
